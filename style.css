@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    background-color: rgb(59, 59, 59);
+}
+
+header,
+footer {
+    background-color: black;
+    color: white;
+}
+
+.main-grid {
+    display: grid;
+    grid-auto-flow: column;
+}
+h1 {
+    text-align: center;
+    
+}
+h2 {
+    border: 10px solid rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    text-decoration-line: none;
+    color: black;
+}
+a{
+    text-decoration-line: none;
+    
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+}
